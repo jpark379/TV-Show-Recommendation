@@ -1,0 +1,16 @@
+1) DATABASE + INSTRUCTIONS FOR INSTALLATION AND LOADING THE DATA
+	1. Download MySQL Community Server and MYSQL Workbench
+	2. Open MySQL Workbench
+	3. Create a new schema named: tvShows
+	4. Reload Schemas and right click on tvShows
+	5. Right click on Tables under the schema and click on Table Data Import Wizard
+	6. Browse to the project file and select the csv file: shows.csv
+	7. Continue clicking 'Next' until you hit 'Finish'
+	8. Repeat steps 5 through 7 except using the csv file: LogIn.csv
+
+
+	NOTE: We had to deleted some rows because it was too big to be imported.
+	Additionally, we also deleted/altered some more rows because they did not fit with the data
+	we were looking for. There were a lot more variety of streaming platforms, but
+	we wanted to focus on 4: Hulu, Netflix, Prime Video and Disney+ for our
+	project's purposes.

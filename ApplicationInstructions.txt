@@ -1,0 +1,25 @@
+2) APPLICATION + INSTRUCTIONS FOR INSTALLING THE APPLICATION SOFTWARE
+	1. Install IntelliJ: https://www.jetbrains.com/idea/download/#section=mac
+	2. When opening the application, click New Project
+	3. Project SDK: corretto-1.8
+		- If you do not have it, click download JDK
+		- Version: 1.8
+		- Vendor: Amazon Corretto
+		- Leave Location as is
+		- Click Download
+	4. Keep clicking Next and then you will get the new window
+	5. File -> New -> Project from Existing sources
+		- jpark379sli235 -> databaseGui -> finalProj480
+		- Click Open
+		- Keep clicking Next until Finish
+	6. Click arrow next to finalProj480 on the left and then src -> connectionInfo.txt
+	7. Write 'root passwordForSQL' and passwordForSQL is your password to access your SQL
+	8. Go to file -> Project Structure
+		- In the window, click Libraries and click the + sign
+		- Click Java -> Go under the lib folder in finalProj480 and click on the .jar file provided
+		- Click Apply and then OK
+		NOTE: We got the library from https://dev.mysql.com/downloads/connector/j/
+		This allows you to connect to MYSQL
+	9. Open GUI file
+	10. On the top of the menu bar click Run -> Run... and then click Enter when Gui is highlighted
+	11. This will now open the application and it should run!

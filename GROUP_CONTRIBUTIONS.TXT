@@ -1,0 +1,9 @@
+jpark379 - Judy Park
+sli235 - Shirley Li
+
+Judy Park:
+	I contributed to this project by finding a better database for us to use compared to the one we used earlier in the semester. The database, however, was not perfect when we started and so I also edited parts of the columns and deleted some rows so that it held only values/shows that included the streaming platforms we wanted: Hulu, Netflix, Prime Video and Hulu. Additionally, I helped create the functions in the MyConnections.java file that allowed the GUI to connect, search for/read the SQL data--finding a random show based on the selections and when pressing the INFO button when seeing the list of shows for an account, designed parts of the GUI application, and created the scenes for displaying the recommended TV shows along with displaying the list of titles and buttons for the account's shows. Furthermore, I wrote the GROUP_CONTRIBUTIONS.TXT file. Furthermore, I completed the database + instructions for installing and loading the data, application + instructions for running the application, and the readme file.
+
+
+Shirley Li:
+	Shirley has contributed to this project by creating the .java files and putting the start of the GUI together. She created the welcome screen, the login screen, and the selections page along with the ComboBoxes displaying each selection option. Additionally, she created the code and table for storing the usernames and passwords into the LogIn table. This allowed for us to get a start on the project and bring the GUI and SQL database together. She also met up in early meetings, thinking of ideas on what our project should be. 
